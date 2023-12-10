@@ -1,0 +1,390 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(94, 94, 94);
+    
+}
+
+.tela-login{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 15px;
+    color: rgb(215, 241, 68);
+}
+.tela-login h1{
+
+    text-align: center;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+.inputSubmit{
+    background-image: linear-gradient(to right, rgb(8, 82, 8), rgb(0, 161, 0));
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.inputSubmit:hover{
+    background-image: linear-gradient(to right, rgb(6, 58, 6), rgb(0, 119, 0));
+    cursor: pointer;
+}
+.logo img{
+    top: 30%;
+    width: 350px;
+    position: absolute;
+    border-radius: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.boxReg{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 350px;
+}
+
+.boxReg fieldset{
+    border: 3px solid rgb(78, 129, 94);
+    
+}
+
+.boxReg fieldset legend{
+    border: 1px solid darkolivegreen;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(78, 129, 94);
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: absolute;
+}
+
+.inputUser{
+    background: none;
+    border-radius: 8px;
+    border: 1px solid rgb(78, 129, 94);
+    outline: none;
+    color: white;
+    width: 80%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -15px;
+    font-size: 13px;
+    background-color: rgb(78, 129, 94);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#update{
+    background-image: linear-gradient(to right, rgb(8, 82, 8), rgb(0, 161, 0));
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#update:hover{
+    background-image: linear-gradient(to right, rgb(6, 58, 6), rgb(0, 119, 0));
+}
+
+#updatePix{
+    background-image: linear-gradient(to right, rgb(8, 82, 8), rgb(0, 161, 0));
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#updatePix:hover{
+    background-image: linear-gradient(to right, rgb(6, 58, 6), rgb(0, 119, 0));
+}
+
+
+
+.box {
+    text-align: center;
+    width: 200px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.box a{
+    
+    border: 3px solid rgb(0, 161, 0);
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+.box a:hover{
+    
+    background-color: rgb(0, 161, 0);
+}
+
+.voltar{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background: rgba(0, 100, 0, 0.473);
+    border: 3px solid rgb(0, 161, 0);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.voltar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+.titulo{
+    position: absolute;
+    font-size: 10px;
+    width: 100%;
+    left: 50px;
+    
+    color: black;
+    text-align: center;
+    
+    left: 50%;
+    top: 15%;
+
+    font-size: 15px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: darkolivegreen;
+    transform: translate(-50%,-50%);
+
+}
+#update{
+    background-image: linear-gradient(to right, rgb(8, 82, 8), rgb(0, 161, 0));
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#update:hover{
+    background-image: linear-gradient(to right, rgb(6, 58, 6), rgb(0, 119, 0));
+}
+.footer{
+    position: absolute;
+    left: 50%;
+    top: 96%;
+    transform: translate(-50%,-50%);
+    opacity: 70%;
+    width: 300px;
+    font-size: 15px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(135, 223, 135), rgb(52, 102, 52));
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 0px;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 33px;
+    top: 0px;
+    transform: translate(0%,0%);
+}
+
+.navbar a.x{
+    border: 3px solid darkgreen;
+    background-color: white;
+    color: darkgreen;
+    padding: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.navbar a.x:hover{
+    border: 3px solid rgb(57, 71, 31);
+    background-color: rgba(0, 128, 0, 0.26);
+    color: white;
+}
+
+.navbar a{
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    transition: all 0.08s;
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgba(214, 96, 0, 0.473);
+    
+}
+.navbar a:hover{
+    transition: all 0.08s;
+    box-shadow: 2px 2px 5px #000000;
+    background-color: rgba(0, 128, 0, 0.26);
+    color: white;
+}
+
+.email{
+    width: 100%;
+  
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.1px;
+    
+}
+.tabelaacesso {
+    
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: 0px;
+    transform: translate(-100%, -50%);
+    width: 200px;
+    
+    
+    
+}
+
+.table {
+    position: absolute;
+    width: 80%;
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    word-wrap: break-word;
+
+    
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid green;
+    padding-bottom: 8px;
+    
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+tr:hover {
+    background-color: rgba(184, 184, 184, 0.5);
+}
+
+.botao-editar{
+    
+    background-color: green;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    
+    
+}
+
+.botao-apagar{
+    
+    background-color: rgb(202, 0, 0);
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.box-search{
+    
+   position: absolute;
+   top: 35%;
+   width: 95%;
+   text-align: center;
+}
+
+.pesquisar{
+
+    border: 1px solid rgb(116, 240, 116);
+    border-radius: 5px;
+    background-color: white;
+    color: darkolivegreen;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+.botao-pesquisar{
+    border: none;
+    background-color: rgb(116, 240, 116);
+    color: darkolivegreen;
+    color: #000000;
+    padding: 10px;
+    border-radius: 30px;
+}
